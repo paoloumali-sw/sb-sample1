@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
-
 <log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
     <appender name="SYSLOG" class="org.apache.log4j.net.SyslogAppender">
-    <errorHandler/>
+    <errorHandler class="org.apache.log4j.helpers.OnlyOnceErrorHandler" />
     <param name="Facility" value="LOCAL7"/>
     <param name="FacilityPrinting" value="false"/>
     <param name="Header" value="true"/>
