@@ -7,4 +7,5 @@
     <param name="SyslogHost" value="logs4.papertrailapp.com:31109"/>
     <param name="ConversionPattern" value="%p: %c{2} %x %m %n"/>
     </appender>
+    <appender-ref ref="SYSLOG" />
 <log4j:configuration>
