@@ -1,5 +1,6 @@
 package hello;
 
+import org.apache.log4j.Logger;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
 
