@@ -10,4 +10,4 @@
     <param name="ConversionPattern" value="%p: %c{2} %x %m %n"/>
     </appender>
     <appender-ref ref="SYSLOG" />
-<log4j:configuration>
+</log4j:configuration>
